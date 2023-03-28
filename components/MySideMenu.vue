@@ -39,7 +39,7 @@
     :key="favItem.favorite"
     class="ma-4"
     >
-        <my-offset-btn-x :title="favItem.favorite" :items="items.title"></my-offset-btn-x>
+        <my-offset-btn-x :title="favItem.favorite"></my-offset-btn-x>
     </v-row>
   </v-card>
 </template>
@@ -103,12 +103,6 @@ export default{
   {favorite:'shop'}   
   ],
 
-  items: [
-        { title: 'Click Me' },
-        { title: 'Click Me' },
-        { title: 'Click Me' },
-        { title: 'Click Me 2' },
-      ],
 })
 }
 
