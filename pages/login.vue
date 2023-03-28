@@ -49,7 +49,7 @@
           <v-icon left color="red" >
             mdi mdi-google
           </v-icon>
-          <div class="ma-10">Login with google account</div>
+          <div class="ma-10">Login with google account 1</div>
           </v-btn>
           <v-btn
           outlined
